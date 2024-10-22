@@ -32,7 +32,7 @@ RUN cd ~ && \
     python3 setup.py install --yes USE_AVX_INSTRUCTIONS
 
 COPY . /app/newproject
-RUN cd /newproject && \
+RUN cd /app/newproject && \
     pip3 install -r requirements.txt
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:3000"]
