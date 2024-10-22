@@ -1,0 +1,7 @@
+Django
+python-barcode
+djangorestframework
+django-cors-headers
+face_recognition
+qrcode
+zbarlight
